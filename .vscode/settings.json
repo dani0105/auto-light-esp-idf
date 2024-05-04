@@ -1,0 +1,39 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s2",
+    "idf.customExtraPaths": "/home/daniel/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/home/daniel/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/home/daniel/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/bin:/home/daniel/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240305/riscv32-esp-elf/bin:/home/daniel/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/daniel/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/home/daniel/.espressif/tools/esp-rom-elfs/20240305",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/daniel/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/daniel/.espressif/tools/esp-rom-elfs/20240305/"
+    },
+    "idf.espIdfPath": "/home/daniel/esp/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s2-kaluga-1.cfg"
+    ],
+    "idf.pythonBinPath": "/home/daniel/.espressif/python_env/idf5.4_py3.10_env/bin/python3",
+    "idf.toolsPath": "/home/daniel/.espressif",
+    "idf.port": "/dev/ttyACM0",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "time.h": "c",
+        "esp_netif_sntp.h": "c",
+        "esp_console.h": "c",
+        "event_groups.h": "c",
+        "nvs_flash.h": "c",
+        "esp_event.h": "c",
+        "argtable3.h": "c",
+        "errno.h": "c",
+        "esp_wifi.h": "c",
+        "esp_log.h": "c",
+        "wifi.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c",
+        "string.h": "c",
+        "sntp.h": "c",
+        "esp_sntp.h": "c",
+        "sntp_control.h": "c",
+        "esp_system.h": "c",
+        "esp_sleep.h": "c",
+        "chrono": "c"
+    }
+}
